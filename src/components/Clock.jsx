@@ -1,9 +1,15 @@
 import React from "react";
 
+const clockStyle = {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+};
+
+
 function Clock() {
   return (
-    <div>
-    </div>
+    <div style={clockStyle}></div>
   );
 }
 
